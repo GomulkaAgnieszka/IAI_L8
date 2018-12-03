@@ -1,0 +1,68 @@
+<div class="navbar"></div>
+
+<div class="container-fluid">
+
+  <form>
+    <fieldset>
+
+      <legend> Uzupełnij formularz </legend>
+
+      <div class="form-group">
+        <label for="InputName">Imię</label>
+        <input type="text" class="form-control" id="InputName" aria-describedby="NameHelp" placeholder="Wpisz imię">
+      </div>
+
+      <div class="form-group">
+        <label for="InputSurname">Nazwisko</label>
+        <input type="text" class="form-control" id="InputSurname" placeholder="Wpisz nazwisko">
+      </div>
+
+      <div class="form-group">
+        <label for="InputEmail">E-mail</label>
+        <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Wpisz email">
+      </div>
+
+
+      <div class="form-check form-check-inline">
+        <label>Płeć</label>
+      </div><br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <label class="form-check-label" for="inlineRadio1">Mężczyzna</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Kobieta</label>
+      </div>
+
+      <div class="form-group">
+        <label for="FormControlTextarea">Opis</label>
+        <textarea class="form-control" id="FormControlTextarea" cols="5" rows="1"></textarea>
+      </div>
+
+      <div class="form-check number">
+        <label for="Number">Wiek</label>
+        <input type="number" class="form-check" id="Number" value="18">
+      </div>
+
+      <div class="form-group col-4">
+        <label for="CivilStatus">StanCywilny</label>
+        <select id="CivilStatus" class="form-control">
+          <option value="1">Panna/Kawaler</option>
+          <option value="2">Zamężna/Żonaty</option>
+          <option value="3">Rozwiedziona/y</option>
+        </select>
+      </div>
+
+      <input type="submit" value="WYŚLIJ" id="send"/>
+      <input type="reset" value="WYCZYŚĆ" />
+    </fieldset>
+  </form>
+
+</div>
+
+
+<button type="submit" class="btn Button">GÓRA</button>
+
+<script type="text/javascript" src="js/scriipt.js"></script>
+<script type="text/javascript" src="js/navbar.js"></script>
